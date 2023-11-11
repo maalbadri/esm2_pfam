@@ -17,6 +17,8 @@ These are automatically pulled from 🤗 during the `Evaluate.sh` command:
  - For the small model, see the HuggingFace model [here](https://huggingface.co/maalbadri/esm2_t6_8M_UR50D-finetuned-localization-small).
  - For the big model, see the HuggingFace model [here](https://huggingface.co/maalbadri/esm2_t6_8M_UR50D-finetuned-localization-big).
 
+The model architecture of the original ESM-2 transformer is illustrated as a PyTorch model in `architecture.txt`.
+
 The performance on the test set for each model is as follows:
 
 ### Small Model (7.93M params)
