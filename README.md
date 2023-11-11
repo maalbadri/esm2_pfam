@@ -10,7 +10,7 @@ In this project, fine-tuning refers to the process of training a pre-trained tra
 
 ## Trained models
 
-Two trained models are available for download, one with classes capped at a minimum of 500 samples ("small" and has 290 classes) and one with classes capped at a minimum of 500 samples ("big" and has 1158 classes). Outputs for each model are in the `SMALL_MODEL` and `BIG_MODEL` directories, respectively.
+Two trained models are available for download, one with classes capped at a minimum of 500 samples ("small" and has 290 classes) and one with classes capped at a minimum of 200 samples ("big" and has 1158 classes). Outputs for each model are in the `SMALL_MODEL` and `BIG_MODEL` directories, respectively.
 
 These are automatically pulled from 🤗 during the `Evaluate.sh` command:
 
