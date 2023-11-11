@@ -94,3 +94,6 @@ This work is based on the following work:
   publisher={American Association for the Advancement of Science}
 }
 ```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
