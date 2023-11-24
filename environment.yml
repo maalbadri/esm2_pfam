@@ -1,4 +1,4 @@
-name: instadeep_test 
+name: hf_esm2 
 channels:
   - conda-forge
   - bioconda
@@ -329,4 +329,3 @@ dependencies:
     - xxhash==3.4.1
     - yarl==1.9.2
     - yaspin==2.1.0
-prefix: /home/mohamedali/anaconda3/envs/l2d

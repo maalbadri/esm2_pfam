@@ -50,7 +50,7 @@ This project includes scripts for processing training data, fine-tuning a transf
 ## Training
 
 2. **Train Model:**
-   - Script: `finetune_esm2_to_pfam_instadeep.py`
+   - Script: `finetune_esm2_to_pfam.py`
    - Bash Script: `Train.sh`
    - Description: Fine-tunes a transformer model (facebook/esm2_t6_8M_UR50D) on the preprocessed training data.
    - Usage:
@@ -74,7 +74,7 @@ This project includes scripts for processing training data, fine-tuning a transf
 An environment file is provided for conda users. To create a conda environment with the required dependencies, run the following command:
 
 ```bash
-conda env create -f instadeep_env.yml
+conda env create -f environment.yml
 ```
 
 ## Author

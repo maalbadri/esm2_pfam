@@ -12,7 +12,7 @@ MODEL_OUTPUT_NAME='big' # 'small'
 HUGGINGFACE_TOKEN=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
 PUSH_TO_HUB=true
 
-python finetune_esm2_to_pfam_instadeep.py \
+python finetune_esm2_to_pfam.py \
   --model_checkpoint $MODEL_CHECKPOINT \
   --train_data_path $TRAIN_DATA_PATH \
   --batch_size $BATCH_SIZE \
